@@ -2773,6 +2773,7 @@ drawable ic_perfil
 drawable ic_search_black_24
 drawable ic_voltar
 drawable img
+drawable load
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3507,6 +3508,7 @@ layout activity_pacoteass
 layout activity_perfil
 layout activity_sempacote
 layout activity_senha
+layout activity_splash
 layout activity_teste
 layout custom_dialog
 layout design_bottom_navigation_item

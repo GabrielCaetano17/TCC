@@ -4,7 +4,7 @@
             "outputFile": "com.example.tcc.test.app-mergeDebugAndroidTestResources-3:/values/values.xml",
             "map": [
                 {
-                    "source": "D:\\AndroidWorkFolder\\.gradle\\caches\\transforms-3\\117962e04b98612db46e4ed7d521ed59\\transformed\\core-1.5.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Thor\\.gradle\\caches\\transforms-3\\117962e04b98612db46e4ed7d521ed59\\transformed\\core-1.5.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,11",
                         "startColumns": "0,0",

@@ -25,6 +25,7 @@ drawable ic_loja_
 drawable ic_perfil
 drawable ic_voltar
 drawable img
+drawable load
 drawable menu
 drawable suplemento
 id CPF
@@ -84,6 +85,7 @@ layout activity_pacoteass
 layout activity_perfil
 layout activity_sempacote
 layout activity_senha
+layout activity_splash
 layout activity_teste
 mipmap ic_launcher
 mipmap ic_launcher_round
