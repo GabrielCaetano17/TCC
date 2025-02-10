@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Perfil">
+
+    <ImageView
+        android:id="@+id/perfil"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_perfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nomep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Nome de usuario:"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/nome_perfil"
+        app:layout_constraintTop_toBottomOf="@id/perfil" />
+
+    <View
+        android:id="@+id/nome_perfil"
+        android:background="@drawable/bloperfil"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/perfil"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtemail_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Email:"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/email_perfil"
+        app:layout_constraintTop_toBottomOf="@id/nome_perfil" />
+
+    <View
+        android:id="@+id/email_perfil"
+        android:background="@drawable/bloperfil"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/nome_perfil"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/senha_perfil"
+        android:background="@drawable/bloperfil"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/email_perfil"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Trocar a Senha:"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/senha_perfil"
+        app:layout_constraintTop_toBottomOf="@id/email_perfil" />
+
+    <View
+        android:id="@+id/assinatura_perfil"
+        android:background="@drawable/bloperfil"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/senha_perfil"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Assinatura atual"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/assinatura_perfil"
+        app:layout_constraintTop_toBottomOf="@id/senha_perfil" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/voltar"
+        style="@style/button"
+        android:layout_marginTop="8dp"
+        android:text="Voltar"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/assinatura_perfil" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sair"
+        style="@style/alerta"
+        android:layout_marginTop="15dp"
+        android:text="Sair da conta"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/voltar" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
